@@ -1,0 +1,107 @@
+body{
+  background-color: #4F4F4F;
+  
+}
+a{
+  color: #ffffff;
+}
+/*--------------------------------------------------*/
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+}
+
+/* Estiliza os links na lista de navegação */
+#navbar-list a {
+  text-decoration: none;
+  color: white; /* Alterado para branco para melhor visibilidade no fundo azul */
+}
+
+/* Estiliza os links quando o mouse está sobre eles */
+#navbar-list a:hover {
+  border-bottom: 1px solid;
+  background-color: #ffffff;
+}
+
+/* Estiliza o título na barra de navegação */
+#navbar h2 {
+  margin: 0;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+/* Estiliza a imagem do logo na barra de navegação */
+#navbar img {
+  height: 40px;
+}
+
+/* Estiliza a lista de navegação na barra de navegação */
+#navbar ul {
+  text-align: center;
+  float: right;
+  margin-top: 22px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+/* Estiliza os itens da lista de navegação */
+#navbar li {
+  margin: 0 10px;
+  list-style: none;
+  padding: 0;
+}
+.log{
+  Font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+
+}
+.promo{
+  Font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  color: whitesmoke;
+  background-color: red;
+  font-size: xx-large;
+
+}
+/*--------------------------------------------------*/
+h2{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+.bio{
+  color: rgb(214, 212, 212);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/*--------------------------------------------------*/
+/* Estilos para o rodapé no final da página */
+.footer {
+  color: #808080;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+ opacity: 50%;
+}
+
+/* Estilos para centralizar o conteúdo no rodapé */
+.col-12 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+a{
+  color: white;
+}
+.link-custom{
+  color: #808080;
+  text-decoration: none;
+}
+/*--------------------------------------------------*/
